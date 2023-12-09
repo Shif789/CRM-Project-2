@@ -20,6 +20,7 @@ public class CustomerController {
 
 	@Autowired
 	private ICustomerService service;
+	
 
 	@GetMapping(value = "/list")
 	public String listCustomer(Map<String, Object> model) {

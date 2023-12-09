@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="https://thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Success</title>
+</head>
+<body style="text-align: center;">
+	<h1 style="color: green;"> <span th:text="${status}" /></h1>
+	<br>
+	<br>
+	<a th:href="@{/login}">Login</a>
+	<br>
+	<a th:href="@{/user/register}">Add Another User</a>
+</body>
+</html>
